@@ -1,4 +1,12 @@
 proxies:
+  - name: sg4.6n6.net
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 955508d0-7b69-11f0-a698-1239d0255272
+    skip-cert-verify: true
+    sni: sg4.6n6.net
+    udp: true
   - name: id2go.ipservers.xyz
     server: quiz.vidio.com
     port: 443
