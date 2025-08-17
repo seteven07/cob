@@ -6,6 +6,11 @@ proxies:
     password: 955508d0-7b69-11f0-a698-1239d0255272
     skip-cert-verify: true
     sni: sg4.6n6.net
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: sg4.6n6.net
     udp: true
   - name: id2go.ipservers.xyz
     server: quiz.vidio.com
