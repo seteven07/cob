@@ -30,7 +30,7 @@ proxies:
       headers:
         Host: sg5.anggasg.my.id
     udp: true
-      - name: cobaaaa
+  - name: cobaaaa
     server: quiz.vidio.com
     port: 80
     type: vless
