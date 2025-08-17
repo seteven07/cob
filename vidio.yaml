@@ -1,5 +1,5 @@
 proxies:
-  - name: anjii
+  - name: anjii_baru
     server: quiz.vidio.com
     port: 443
     type: trojan
