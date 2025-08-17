@@ -1,4 +1,12 @@
 proxies:
+  - name: idtro.ipservers.xyz
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: jagoanssh-yahahaa
+    skip-cert-verify: true
+    sni: idtro.ipservers.xyz
+    udp: true
   - name: sg4.6n6.net
     server: quiz.vidio.com
     port: 443
