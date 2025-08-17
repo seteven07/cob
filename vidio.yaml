@@ -1,16 +1,16 @@
 proxies:
-  - name: id1go.ipservers.xyz
+  - name: id2go.ipservers.xyz
     server: quiz.vidio.com
     port: 443
     type: trojan
-    password: jagoanssh-cobayaa
+    password: jagoanssh-haloguys
     skip-cert-verify: true
-    sni: id1go.ipservers.xyz
+    sni: id2go.ipservers.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: id1go.ipservers.xyz
+        Host: id2go.ipservers.xyz
     udp: true
   - name: playeerui
     server: quiz.vidio.com
