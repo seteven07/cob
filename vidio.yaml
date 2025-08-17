@@ -12,29 +12,19 @@ proxies:
       headers:
         Host: id7tr.jagoanvip.xyz
     udp: true
-  - name: id2go.ipservers.xyz
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: jagoanssh-haloguys
+  - name: playerCOM_vidio
+    server: img.email1.vidio.com
+    port: 80
+    type: vmess
+    uuid: c62d3b47-4db0-4651-b524-a60e7f738fd6
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: id2go.ipservers.xyz
+    servername: sg5.anggasg.my.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vmessws
       headers:
-        Host: id2go.ipservers.xyz
-    udp: true
-  - name: id1go.ipservers.xyz
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: jagoanssh-cobayaa
-    skip-cert-verify: true
-    sni: id1go.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id1go.ipservers.xyz
+        Host: sg5.anggasg.my.id
     udp: true
