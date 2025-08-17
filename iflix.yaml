@@ -1,5 +1,5 @@
 proxies:
-   name: playerCOM_iflix
+   - name: playerCOM_iflix
     server: sg5.anggasg.my.id
     port: 443
     type: vmess
