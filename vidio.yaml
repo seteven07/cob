@@ -5,12 +5,12 @@ proxies:
     type: trojan
     password: vvip-playercom111
     skip-cert-verify: true
-    sni: sg3tr.jagoanvip.xyz
+    sni: id7tr.jagoanvip.xyz 
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: sg3tr.jagoanvip.xyz
+        Host: id7tr.jagoanvip.xyz
     udp: true
   - name: id2go.ipservers.xyz
     server: quiz.vidio.com
