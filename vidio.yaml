@@ -1,4 +1,17 @@
 proxies:
+  - name: id4tr.jagoanvip.xyz
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: vvip-playercom111
+    skip-cert-verify: true
+    sni: id4tr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id4tr.jagoanvip.xyz
+    udp: true
   - name: idtro.ipservers.xyz
     server: quiz.vidio.com
     port: 443
