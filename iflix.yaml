@@ -1,4 +1,16 @@
 proxies:
+  - name: anjii
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: vvip-playercom111
+    skip-cert-verify: true
+    sni: sg3tr.jagoanvip.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg3tr.jagoanvip.xyz
   - name: playeerui
     server: quiz.vidio.com
     port: 80
