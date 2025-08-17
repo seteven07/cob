@@ -1,16 +1,16 @@
 proxies:
-  - name: anjii_barusan
+  - name: anjii_barus
     server: quiz.vidio.com
     port: 443
     type: trojan
     password: vvip-playercom111
     skip-cert-verify: true
-    sni: idtr.jagoanvip.xyz
+    sni: sg3tr.jagoanvip.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: idtr.jagoanvip.xyz
+        Host: sg3tr.jagoanvip.xyz
     udp: true
   - name: id2go.ipservers.xyz
     server: quiz.vidio.com
