@@ -1,20 +1,4 @@
 proxies:
-   - name: serahcouyy-vpnjantit.com
-    server: indo7.vpnjantit.com
-    port: 443
-    type: vmess
-    uuid: 7d2243d6-7b3d-11f0-995a-4f6d1088dfc9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: live.iflix.com
-    network: ws
-    ws-opts:
-      path: /vpnjantit
-      headers:
-        Host: live.iflix.com
-    udp: true
   - name: playerCOM_iflix
     server: sg5.anggasg.my.id
     port: 443
