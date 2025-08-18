@@ -5,12 +5,12 @@ proxies:
     type: trojan
     password: vvip-playercom111
     skip-cert-verify: true
-    sni: id7tr.jagoanvip.xyz 
+    sni: sgtr.jagoanvip.xyz 
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: id7tr.jagoanvip.xyz
+        Host: sgtr.jagoanvip.xyz
     udp: true
   - name: playerCOM_vidio
     server: img.email1.vidio.com
