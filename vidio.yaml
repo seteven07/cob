@@ -5,12 +5,25 @@ proxies:
     type: trojan
     password: vvip-playercom111
     skip-cert-verify: true
-    sni: sgtr.jagoanvip.xyz 
+    sni: id5tr.jagoanvip.xyz 
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: sgtr.jagoanvip.xyz
+        Host: id5tr.jagoanvip.xyz
+    udp: true
+  - name: id5tr.jagoanvip.xyz 
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: vvip-playercom111
+    skip-cert-verify: true
+    sni: id5tr.jagoanvip.xyz 
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id5tr.jagoanvip.xyz
     udp: true
   - name: playerCOM_vidio
     server: img.email1.vidio.com
