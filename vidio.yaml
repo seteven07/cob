@@ -12,19 +12,3 @@ proxies:
       headers:
         Host: id5tr.jagoanvip.xyz
     udp: true
-  - name: playerCOM_vidio
-    server: img.email1.vidio.com
-    port: 80
-    type: vmess
-    uuid: c62d3b47-4db0-4651-b524-a60e7f738fd6
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: sg5.anggasg.my.id
-    network: ws
-    ws-opts:
-      path: /vmessws
-      headers:
-        Host: sg5.anggasg.my.id
-    udp: true
