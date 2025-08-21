@@ -11,19 +11,3 @@ proxies:
       path: /trojan
       headers:
         Host: upload.iflix.com
-  - name: playerCOM
-    server: sg5.anggasg.my.id
-    port: 443
-    type: vmess
-    uuid: c62d3b47-4db0-4651-b524-a60e7f738fd6
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: upload.iflix.com
-    network: ws
-    ws-opts:
-      path: /vmessws
-      headers:
-        Host: upload.iflix.com
-    udp: true
